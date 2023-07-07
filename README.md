@@ -1,5 +1,5 @@
 # CursoBigDataSemana5
-File M5_01 : Python / Intro - Theory on lists, operators, types of data, functions, dictionaries, strings. Functions Maps, Filter and Reduce.
+
 ## File M5_01 Python :
 
 - Theory on lists, operators, types of data, functions, dictionaries, strings.
@@ -50,8 +50,6 @@ In this practice you will obtain the data to predict if a Falcon 9 will land suc
 - Assign instance, train model with fit()
 - Make_future_dataframe(x) - method of Prophet for making a prediction
 
-In this practice you will obtain the data to predict if a Falcon 9 will land successfully or not.
-
 ## Folium  : NB!!! TO Do
 
 - Import libraries
@@ -60,4 +58,27 @@ In this practice you will obtain the data to predict if a Falcon 9 will land suc
 - Head()
 - Filter dataframe, condition
 
-In this practice you will obtain the data to predict if a Falcon 9 will land successfully or not.
+## File M5-Spacex2-6 ML Prediction : 
+
+1- Import libraries
+2- Def function de visualization of matrix de confusion
+3- Download first df (variable type is text + Class)
+4- Download second df (normalisation of (3)). Transformacion one-hot(X)
+5- Tarea1. Crear un array NumPy de Class con metodo to_numpy(). Y=data['class'].to_numpy()
+6- Tarea2. Normalise los datos en X con function fit_transform. X=scaler.fit_transform(X)
+7- Tarea3. Dividimos values en 4 partes (entrenamiento y prueba) by using train_test_split()
+X_train, X_test,Y_train,Y_test= train_test_split
+(X,Y,tarin_size=0.8,random_state=2)
+8- Tarea4. To train objeto GridSearchCV para encontrar mejores parametres del diccionario parametres
+GridSearchCV(modelo, parametres, scoring,CV)
+8.1. - parametres ={'c':[0.01,0.1.1], 'penalty': ['12'], 'solver': ['lbfgs']
+8.2. - Crear un objeto de RegrLogistica. modelo=LogisticRegression()
+8.3. - Crear un objeto GridSearchCV con (8.2)+mas
+logreg_cv=GridSearchCV(modelo,parametro,scoring='accuracy', CV=10)
+8.4. - Train ridSearchCV to define the best parameters of dictionary parameters
+logreg_cv.fit(X_train,Y_train)
+8.5. - Print mejores parametros - presicion de trained data.  best_params_, best_score_ 
+9- 
+- Append()
+- Head()
+- Filter dataframe, condition
