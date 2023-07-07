@@ -72,12 +72,12 @@ X_train, X_test,Y_train,Y_test= train_test_split
 - 8.Tarea4. To train objeto GridSearchCV para encontrar mejores parametres del diccionario parametres
 GridSearchCV(modelo, parametres, scoring,CV)
 - 8.1.parametres ={'c':[0.01,0.1.1], 'penalty': ['12'], 'solver': ['lbfgs']
-8.2. - Crear un objeto de RegrLogistica. modelo=LogisticRegression()
-8.3. - Crear un objeto GridSearchCV con (8.2)+mas
+- 8.2.Crear un objeto de RegrLogistica. modelo=LogisticRegression()
+- 8.3.Crear un objeto GridSearchCV con (8.2)+mas
 logreg_cv=GridSearchCV(modelo,parametro,scoring='accuracy', CV=10)
-8.4. - Train ridSearchCV to define the best parameters of dictionary parameters
+- 8.4.Train ridSearchCV to define the best parameters of dictionary parameters
 logreg_cv.fit(X_train,Y_train)
-8.5. - Print mejores parametros - presicion de trained data.  best_params_, best_score_ 
+- 8.5.Print mejores parametros - presicion de trained data.  best_params_, best_score_ 
 9- 
 - Append()
 - Head()
