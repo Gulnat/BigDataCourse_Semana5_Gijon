@@ -64,12 +64,12 @@ In this practice you will obtain the data to predict if a Falcon 9 will land suc
 - 2.Def function de visualization of matrix de confusion
 - 3.Download first df (variable type is text + Class)
 - 4.Download second df (normalisation of (3)). Transformacion one-hot(X)
-- 5.Tarea1. Crear un array NumPy de Class con metodo to_numpy(). Y=data['class'].to_numpy()
-- 6.Tarea2. Normalise los datos en X con function fit_transform. X=scaler.fit_transform(X)
-- 7.Tarea3. Dividimos values en 4 partes (entrenamiento y prueba) by using train_test_split()
+- 5.TAREA 1. Crear un array NumPy de Class con metodo to_numpy(). Y=data['class'].to_numpy()
+- 6.TAREA 2. Normalise los datos en X con function fit_transform. X=scaler.fit_transform(X)
+- 7.TAREA 3. Dividimos values en 4 partes (entrenamiento y prueba) by using train_test_split()
 X_train, X_test,Y_train,Y_test= train_test_split
 (X,Y,tarin_size=0.8,random_state=2)
-- 8.Tarea4. To train objeto GridSearchCV para encontrar mejores parametres del diccionario parametres
+- 8.TAREA 4. To train objeto GridSearchCV para encontrar mejores parametres del diccionario parametres
 GridSearchCV(modelo, parametres, scoring,CV)
 - 8.1.parametres ={'c':[0.01,0.1.1], 'penalty': ['12'], 'solver': ['lbfgs']
 - 8.2.Crear un objeto de RegrLogistica. modelo=LogisticRegression()
@@ -78,7 +78,9 @@ logreg_cv=GridSearchCV(modelo,parametro,scoring='accuracy', CV=10)
 - 8.4.Train ridSearchCV to define the best parameters of dictionary parameters
 logreg_cv.fit(X_train,Y_train)
 - 8.5.Print mejores parametros - presicion de trained data.  best_params_, best_score_ 
-9- 
-- Append()
-- Head()
-- Filter dataframe, condition
+- 9. TAREA 5. 
+- 9.1
+- 9.2
+- 9.3
+- 
+
