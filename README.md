@@ -60,8 +60,8 @@ In this practice you will obtain the data to predict if a Falcon 9 will land suc
 
 ## File M5-Spacex2-6 ML Prediction : 
 
-1- Import libraries
-2- Def function de visualization of matrix de confusion
+- 1.Import libraries
+- 2.Def function de visualization of matrix de confusion
 3- Download first df (variable type is text + Class)
 4- Download second df (normalisation of (3)). Transformacion one-hot(X)
 5- Tarea1. Crear un array NumPy de Class con metodo to_numpy(). Y=data['class'].to_numpy()
