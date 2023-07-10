@@ -83,4 +83,11 @@ logreg_cv.fit(X_train,Y_train)
 - 9.2
 - 9.3
 - 
+## File SpaceX-4 EDA with Visualization :
 
+- Import matplotlib and seaborn for creating graphs
+- Using Categorical plot catplot() create different graphs based on different categories (Ej1)
+- In Ej2 in Orbits calculate probabilities of success using groupby(),and sort it using sort_values(). Based on it, build a bar chart.
+- In Ej3 repeat all steps of Ej2 using LaunchSite as a measure.
+- In Ej4 use finction DatetimeIndex() in order to see the change of the PayLoadMass over the time (years). Build a lineplot.
+- In Ej6 repeat all steps as in Ej4 but for the month timeseries.
