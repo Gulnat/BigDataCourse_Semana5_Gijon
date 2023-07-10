@@ -79,10 +79,15 @@ logreg_cv=GridSearchCV(modelo,parametro,scoring='accuracy', CV=10)
 logreg_cv.fit(X_train,Y_train)
 - 8.5.Print mejores parametros - presicion de trained data.  best_params_, best_score_ 
 - 9. TAREA 5. 
-- 9.1
-- 9.2
-- 9.3
-- 
+- 9.1 Precision de prueba X_test, Y_Test - metodo score(), precision=logreg_cv.score(X_Test, Y_Test)
+- 9.2 Prediction Y_Pred with input X_Test, Y_Pred= logreg_cv.predict(X_Test)
+- 9.3 Compare Y_Pred (de 9.2) and Y_test. Usar function de Luis de matrix de confusion. Plot_confusion_matrix(Y_Test, Y_Pred)
+- 10. Tarea 6. From imports take forst model SVC(). Next, the same as Tarea4 (de 8) repeat from 8.1 until 8.5
+- 11. Tarea 7. Calculate precision como en tarea 5 (de 9), repeat from 9.1. until 9.3
+- 12. Tarea 8. Arbol de decision. The same as Tarea 4, repeat 8.1.- 8.5
+- 13. Tarea 9. The same as Tarea 5, repeat 9.1 - 9.3
+- 14. Tarea 10. 
+  
 ## File SpaceX-4 EDA with Visualization :
 
 - Import matplotlib and seaborn for creating graphs
